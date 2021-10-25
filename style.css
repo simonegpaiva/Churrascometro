@@ -105,6 +105,28 @@ footer a{
   text-decoration: none;
 }
 
-@media (max-width: 700px){
- 
+@media (max-width: 400px){
+  .grid{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container{
+    max-width: 290px;
+  }
+
+  .box{
+    margin-top: 5px;
+    width: 230px;
+    height: 500px;
+    padding-bottom: 5px;
+  }
+
+  .box h1{
+    margin-bottom: 7px;
+  }
+
+  .footer{
+    font-size: .3rem;
+  }
 }
