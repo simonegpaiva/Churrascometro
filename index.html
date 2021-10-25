@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./IMAGENS/favicon-32x32.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap" rel="stylesheet">
+  
+  <title>Churrascometro</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="grid">
+          <div class="fundo">
+            <img src="./IMAGENS/Fundo-1.png" alt="barbecue">
+          </div>
+          <div class="box">
+            <h1>Churrascômetro &#x1F357</h1>
+            <p class="title">Quantidade de adultos</p>
+            <input type="number" id="adultos" name="adultos" placeholder="Adultos">
+            <p class="title">Quantidade de crianças</p>
+            <input type="number" id="criancas" name="criancas" placeholder="Crianças">
+            <p class="title">Duração do evento</p>
+            <input type="number" id="duracao" name="duracao" placeholder="Duração(h)">
+            <button onclick="calcular()">Calcular</button>
+
+            <div id="resultado">
+              <h3>Aqui tudo que você precisa!</h3>
+            </div>
+          </div>
+          
+        </div>
+     </div>
+
+     <footer>
+       <p>Copyright &copy;. Desenvolvido por <a href="https://github.com/simonegpaiva">Simone Paiva</a></p>
+     </footer>
+  
+
+  <script src="./script.js"></script>
+</body>
+</html>
